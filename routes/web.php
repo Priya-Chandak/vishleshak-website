@@ -44,3 +44,13 @@ Route::get('/products', function () {
 Route::get('/services', function () {
     return view('services');
 });
+
+# privacy-policy
+Route::get('/privacy-policy', function () {
+    return view('privacy_policy');
+});
+
+# terms-conditions
+Route::get('/terms-conditions', function () {
+    return view('terms_conditions');
+});
